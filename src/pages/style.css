@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&family=Mulish:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    font-family: "Mulish", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    margin: 0 !important;
+}
+
+
+
+.first-page{
+    margin: 8% 0;
+}
+
+.first-sec{
+    margin: 8% 0;
+}
+
+.first-sec h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.first-sec p{
+    color: #7D7987;
+    font-weight: 300;
+    font-size: 18px;
+}
+.first-sec .fist-btn{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    background-color: #458FF6;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 20px;
+
+}
+
+.second-page h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.second-page p{
+    margin: 20px 0 50px 0;
+
+}
+
+.card-main{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 10px;
+    height: 92%;
+    
+}
+
+.carditem-body h4{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.carditem-body p{
+    color: #7D7987;
+}
+
+.learn button{
+    outline: none;
+    border: 1px solid #458FF6;
+    background: transparent;
+    color: #458FF6;
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-weight: 700;
+    margin: 40px 0;
+}
+
+.third-sec{
+    margin-top: 60px;
+}
+
+.leading-health h2{
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.leading-health p{
+    color: #7D7987;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.forth-sec{
+    margin-top: 90px;
+
+}
+
+.download-app h2{
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.download-app p{
+    color: #7D7987;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.dowm-btn button{
+    outline: none;
+    border: 1px solid #458FF6;
+    background: transparent;
+    color: #458FF6;
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-weight: 700;
+    margin: 40px 0;
+}
+
+
+.dowm-btn .d-btn{
+    margin-left: 10px;
+    width: 10%;
+}
+
+.fifth-sec{
+    background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    color: #fff;
+    border-radius: 20px;
+    padding: 50px 0;
+    margin: 90px 0;
+
+}
+
+.fifth-page {
+position: relative;
+}
+.carousel .control-dots{
+    position: absolute;
+    bottom: 1px !important;
+    
+}
+
+.cus-comment{
+    margin-top: 60px;
+    margin-bottom: 90px !important;
+}
+.cus-comment img{
+    border-radius: 50%;
+    margin-left: 40% !important;
+}
+
+.cus-comment h4{
+    margin-top: 30px;
+    margin-left: 85px;
+}
+
+.cus-comment2{
+    margin-top: 80px;
+    margin-bottom: 90px !important;
+}
+
+.doc-card-image img{
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+    
+}
+
+.doc-card-body{
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fff;
+    border-radius: 0 0 12px 12px;
+    margin-bottom: 50px;
+
+}
+
+.doc-card-body h6{
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.doc-card-body .para{
+    color: #7D7987;
+}
+
+.doc-card-btn{
+    outline: none;
+    border: none;
+    background: transparent;
+    margin-top: 10px;
+}
+.doc-card-btn p{
+    color: #458FF6;
+}
+
+.doc-card-btn img{
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+@media screen and (max-width: 992px){
+    br{
+        display: none;
+    }
+
+    .download-image{
+        margin-bottom: 50px !important;
+    }
+}
+
+
+

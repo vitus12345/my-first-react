@@ -1,45 +1,56 @@
 import React from 'react'
+import { Link } from '../../assets';
+import './footer.css'
 
 const Footer = () => {
   return (
       <React.Fragment>
-      <footer className ="bg-dark text-center text-white">
-       
-        <div className ="container p-4 pb-0">
-            
-            <section className ="mb-4">
-           
-            <a className ="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                ><i className ="fab fa-facebook-f"></i></a>
+      <footer className ="foot">
+        <div className="row">
+        <div className="col-sm-12 col-md-12 col-lg-1"></div>
+        <div className="col-sm-12 col-md-12 col-lg-10">
+            <div className="row">
+                <div className="col-sm-12 col-md-12 col-lg-3">
+                    <img src= {Link} alt="image" className='mb-3' />
+                    <p>Trafalgar provides progressive, and affordable 
+                        healthcare, accessible on mobile and online 
+                        for everyone
+                    </p>
+                    <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
+                </div>
+                <div className="col-sm-12 col-md-12 col-lg-1"></div>
+                <div className="col-sm-12 col-md-12 col-lg-2">
+                    <h5>Company</h5>
+                    <p>About</p>
+                    <p>Testimonials</p>
+                    <p>Find a doctor</p>
+                    <p>Apps</p>
 
-            
-            <a className ="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                ><i className ="fab fa-twitter"></i></a>
 
-            
-            <a className ="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                ><i className ="fab fa-google"></i></a>
+                </div>
+                <div className="col-sm-12 col-md-12 col-lg-1"></div>
+                <div className="col-sm-12 col-md-12 col-lg-2">
+                    <h5>Region</h5>
+                    <p>Indonesia</p>
+                    <p>Singapore</p>
+                    <p>Hongkong</p>
+                    <p>Canada</p>
+                </div>
+                <div className="col-sm-12 col-md-12 col-lg-1"></div>
+                <div className="col-sm-12 col-md-12 col-lg-2">
+                    <h5>Help</h5>
+                    <p>Help center</p>
+                    <p>Contact support</p>
+                    <p>Instruction</p>
+                    <p>How it works</p>
+                </div>
+            </div>
 
-           
-            <a className ="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                ><i className ="fab fa-instagram"></i></a>
-
-           
-            <a className ="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                ><i className ="fab fa-linkedin-in"></i></a>
-
-           
-            <a className ="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                ><i className ="fab fa-github"></i></a>
-            </section>
-            
         </div>
+        <div className="col-sm-12 col-md-12 col-lg-1"></div>
 
-        <div className ="text-center p-3">
-            © 2020 Copyright:
-            <a className ="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-        </div>  
-        </footer>
+        </div>    
+      </footer>
     </React.Fragment>
   );
 }
